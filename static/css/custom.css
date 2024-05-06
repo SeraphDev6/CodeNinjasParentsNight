@@ -1,0 +1,48 @@
+* {
+  color: white !important;
+}
+html {
+  font-size: 14px;
+}
+.small-image {
+  width: 25vh;
+}
+
+img.top {
+  position: fixed;
+  top: 15vh;
+}
+img.left {
+  position: fixed;
+  left: 10vw;
+}
+img.bottom {
+  position: fixed;
+  bottom: 15vh;
+}
+img.right {
+  position: fixed;
+  right: 10vw;
+}
+section {
+  background-image: url(static/images/ninjabg.jpg);
+  background-size: contain;
+}
+.t2 {
+  font-size: 3rem;
+  margin: 3rem;
+}
+ul.alternate {
+  width: 70%;
+}
+ul.alternate > li {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ul.alternate > li:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
